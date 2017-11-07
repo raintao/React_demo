@@ -27,7 +27,7 @@ class Apps extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <p onClick={this.handleClick} style={{lineHeight:'40px',color:'red',cursor:'pointer'}}>
+        <p  onClick={this.handleClick} style={{lineHeight:'40px',color:'red',cursor:'pointer'}}>
           你{text}我，点我切换状态。
         </p>
         <WebSite />
@@ -39,7 +39,7 @@ class WebSite extends Component{
   constructor(props){
     super(props);
     this.state={
-      name:'张涛',
+      name:'raintao',
       site:"https://raintao.github.io/"
     }
   }
